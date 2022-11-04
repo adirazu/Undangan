@@ -61,6 +61,11 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script type="text/javascript">
+		function playAudio(url) {
+		  new Audio(url).play();
+		}
+	</script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -89,7 +94,7 @@
 		  <!-- </div> -->
 	  </div>
 	</header>
-	
+
 	<div class="qbootstrap-hero" data-section="beranda">
 		<div class="qbootstrap-overlay"></div>
 		<div class="qbootstrap-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_3.jpg);">
@@ -102,6 +107,7 @@
 								<h1 class="holder"><span>Pernikahan Dari</span></h1>
 								<h2>Icha &amp; Adit</h2>
 								<p>22.01.2023</p>
+								<p><a href="#" data-nav-section="salam" onclick="playAudio('audio.mp3')" class="btn btn-default btn-sm">Mohon Doa Restu </a></p>
 							</div>
 						</div>
 					</div>
@@ -110,7 +116,7 @@
 		</div>
 	</div>
 
-	<div id="qbootstrap-couple" class="qbootstrap-section-gray">
+	<div id="qbootstrap-couple" class="qbootstrap-section-gray" data-section="salam">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 animate-box">
@@ -324,7 +330,7 @@
 
 		</div>
 	</footer>
-
+	
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
