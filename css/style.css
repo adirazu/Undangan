@@ -666,7 +666,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   #qbootstrap-countdown .section-heading h2 {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 #qbootstrap-countdown .section-heading .datewed {
@@ -998,7 +998,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   #qbootstrap-testimonials .section-heading h2 {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 #qbootstrap-testimonials .section-heading.svg-sm .svg {
