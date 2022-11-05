@@ -374,10 +374,10 @@
 	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 	    
 	  // Output the result in an element with id="demo"
-	  document.getElementById("days").innerHTML = days + " Hari ";
-	  document.getElementById("hours").innerHTML = hours + " Jam ";
-	  document.getElementById("minutes").innerHTML = minutes + " Menit ";
-	  document.getElementById("seconds").innerHTML = seconds + " Detik ";
+	  document.getElementById("days").innerHTML = days + "<small> Hari </small>";
+	  document.getElementById("hours").innerHTML = hours + "<small> Jam </small>";
+	  document.getElementById("minutes").innerHTML = minutes + "<small> Menit </small>";
+	  document.getElementById("seconds").innerHTML = seconds + "<small> Detik </small>";
 	    
 	  // If the count down is over, write some text 
 	  if (distance < 0) {

@@ -698,13 +698,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #qbootstrap-countdown .countdown span {
-  margin: 0 50px;
-  padding: 25px;
+  margin: 0 40px;
   display: inline-block;
-  font-size: 50px;
+  font-size: 70px;
   font-family: "Clicker Script", cursive;
-  border-radius: 100%;
-  background: #ef8b80;
+  animation: pulse 1s ease infinite;
 }
 
 #qbootstrap-countdown .countdown small {
